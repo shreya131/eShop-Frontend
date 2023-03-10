@@ -1,0 +1,99 @@
+/* NavBar Styling*/
+.Navbar {
+  /* padding: 5mm; */
+  font-size: large;
+  background-color: bisque;
+  padding: 10px 0px 10px 0px;
+}
+
+.shopName {
+  display: inline-block;
+  /* padding-top: 10px; */
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.shopName:hover {
+  font-weight: bold;
+}
+.cartButton {
+  display: inline-block;
+  /* padding: 10px; */
+  /* padding-top: 10px; */
+  position: absolute;
+  left: 92%;
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+
+.cartButton:hover {
+  font-weight: bold;
+}
+
+/* ProductCard Styling */
+.Product {
+  display: inline-block;
+  border-style: solid;
+  margin: 10px 50px;
+  padding: 10px;
+  height: 450px;
+  width: 450px;
+  text-align: center;
+}
+.Image {
+  display: block;
+  width: 400px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Title {
+  font-weight: bold;
+  font-size: larger;
+  /* padding: 5px; */
+}
+
+.Add {
+  border: none;
+  background-color: bisque;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.Remove {
+  border: none;
+  background-color: rgb(224, 22, 22);
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* HomePage Styling */
+.Products {
+  position: relative;
+}
+.pages {
+  border: solid;
+  margin: auto;
+  width: 37%;
+}
+.pages button {
+  font-size: 30px;
+  border: none;
+  margin: 10px;
+  background-color: white;
+}
+.pages button:hover {
+  margin-top: 7px;
+  font-weight: bold;
+  font-size: 33px;
+}
